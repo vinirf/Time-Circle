@@ -27,6 +27,9 @@
 		3FBA937F1A05896800DF3460 /* imgGanhou.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBA937E1A05896800DF3460 /* imgGanhou.png */; };
 		3FBA93821A058F2300DF3460 /* DuvidaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA93811A058F2300DF3460 /* DuvidaViewController.m */; };
 		3FBA93851A05901F00DF3460 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA93841A05901F00DF3460 /* MenuViewController.m */; };
+		3FC91FBF1A0E6A8E00D88764 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC91FBE1A0E6A8E00D88764 /* Social.framework */; };
+		3FC91FC11A0E6A9600D88764 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC91FC01A0E6A9600D88764 /* Twitter.framework */; };
+		3FC91FC31A0E6A9F00D88764 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC91FC21A0E6A9F00D88764 /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +75,9 @@
 		3FBA93811A058F2300DF3460 /* DuvidaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DuvidaViewController.m; path = ../DuvidaViewController.m; sourceTree = "<group>"; };
 		3FBA93831A05901F00DF3460 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		3FBA93841A05901F00DF3460 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		3FC91FBE1A0E6A8E00D88764 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		3FC91FC01A0E6A9600D88764 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		3FC91FC21A0E6A9F00D88764 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC91FC31A0E6A9F00D88764 /* Accounts.framework in Frameworks */,
+				3FC91FC11A0E6A9600D88764 /* Twitter.framework in Frameworks */,
+				3FC91FBF1A0E6A8E00D88764 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +104,9 @@
 		3F485FC81A046A2900F0F185 = {
 			isa = PBXGroup;
 			children = (
+				3FC91FC21A0E6A9F00D88764 /* Accounts.framework */,
+				3FC91FC01A0E6A9600D88764 /* Twitter.framework */,
+				3FC91FBE1A0E6A8E00D88764 /* Social.framework */,
 				3F485FD31A046A2900F0F185 /* Time Zone */,
 				3F485FED1A046A2900F0F185 /* Time ZoneTests */,
 				3F485FD21A046A2900F0F185 /* Products */,

@@ -10,6 +10,7 @@
 #import "DataBaseCirculos.h"
 #import "Circulo.h"
 #import "GestureCirculo.h"
+#import <Social/Social.h>
 
 @interface JogoViewController : UIViewController
 
@@ -42,7 +43,7 @@
 - (IBAction)btnMenu:(id)sender;
 - (IBAction)btnRecomecar:(id)sender;
 @property (weak, nonatomic) IBOutlet UILabel *lblPontuacaoRecorde;
-
+@property SLComposeViewController *postFacebook;
 
 
 //Superior

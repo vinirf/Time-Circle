@@ -10,11 +10,14 @@
 #import "DataBaseCirculos.h"
 #import "DuvidaViewController.h"
 #import "JogoViewController.h"
+#import <Social/Social.h>
+#import <Twitter/Twitter.h>
+#import <Accounts/Accounts.h>
 
 @interface MenuViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *lblPontuacaoRecorde;
-
+@property SLComposeViewController *postFacebook;
 
 - (IBAction)btnJogar:(id)sender;
 

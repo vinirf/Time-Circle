@@ -273,5 +273,23 @@
 }
 
 
+- (IBAction)btnCompartilhar:(id)sender {
+    
+    self.postFacebook = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
+    
+    [self.postFacebook setInitialText:@"Facebook Circle"];
+    
+    
+    // [self.tweetSheet addImage: self.imageView.image];
+    
+    
+    NSString *endereco = [NSString stringWithFormat:@"%@%@",@"Eu pontuei ",[DataBaseCirculos sharedManager].recorde];
+    [self.postFacebook setInitialText: endereco];
+    
+    
+    [self presentViewController: self.postFacebook animated:YES completion:nil];
+    
+}
+
 
 @end

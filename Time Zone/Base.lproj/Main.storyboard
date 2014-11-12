@@ -89,6 +89,9 @@
                                         <state key="normal" backgroundImage="iconeFacebook.ico">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="btnCompartilhar:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="IJx-B4-TfI"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </view>
@@ -199,6 +202,9 @@
                                 <state key="normal" backgroundImage="iconeFacebook.ico">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnCompartilhar:" destination="SqA-yA-FPN" eventType="touchUpInside" id="0tV-FV-UtV"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recorde" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CvA-oE-2zz">
                                 <rect key="frame" x="94" y="125" width="130" height="39"/>
